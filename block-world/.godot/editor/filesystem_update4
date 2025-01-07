@@ -1,0 +1,7 @@
+res://level.tscn
+res://player.tscn
+res://coin.tscn
+res://area_2d.gd
+res://character_body_2d.gd
+res://level1.gd
+res://globalvariable.gd
