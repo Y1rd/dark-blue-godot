@@ -1,7 +1,13 @@
+res://moving_platform.tscn
+res://moving_platform.gd
 res://level.tscn
 res://player.tscn
 res://coin.tscn
-res://area_2d.gd
-res://character_body_2d.gd
 res://level1.gd
-res://globalvariable.gd
+res://area_2d.gd
+res://level2.tscn
+res://level2.gd
+res://moving_platform_vertical.gd
+res://moving_platform_vertical.tscn
+res://level3.tscn
+res://level3.gd

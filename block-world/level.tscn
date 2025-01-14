@@ -1,12 +1,13 @@
-[gd_scene load_steps=12 format=4 uid="uid://bxpa3w632trfn"]
+[gd_scene load_steps=13 format=4 uid="uid://bxpa3w632trfn"]
 
 [ext_resource type="Script" path="res://level1.gd" id="1_0dsdi"]
 [ext_resource type="Texture2D" uid="uid://hgyaatul7dhq" path="res://tilemap.png" id="1_5orx5"]
 [ext_resource type="PackedScene" uid="uid://c3v821sp0xoa2" path="res://player.tscn" id="2_cnj3h"]
 [ext_resource type="Texture2D" uid="uid://8atiu7jqrpag" path="res://lava.png" id="2_fvv6k"]
 [ext_resource type="PackedScene" uid="uid://cw478d1vakhbg" path="res://coin.tscn" id="4_pwxfo"]
+[ext_resource type="PackedScene" uid="uid://b0t3ohxlx6yb7" path="res://moving_platform.tscn" id="6_difsg"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_iv41h"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_y6qyi"]
 texture = ExtResource("1_5orx5")
 texture_region_size = Vector2i(24, 24)
 0:0/0 = 0
@@ -21,9 +22,9 @@ texture_region_size = Vector2i(24, 24)
 [sub_resource type="TileSet" id="TileSet_lxklq"]
 tile_size = Vector2i(24, 24)
 physics_layer_0/collision_layer = 1
-sources/5 = SubResource("TileSetAtlasSource_iv41h")
+sources/5 = SubResource("TileSetAtlasSource_y6qyi")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_mmj06"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_igo2e"]
 texture = ExtResource("1_5orx5")
 texture_region_size = Vector2i(24, 24)
 0:0/0 = 0
@@ -33,9 +34,9 @@ texture_region_size = Vector2i(24, 24)
 
 [sub_resource type="TileSet" id="TileSet_qntjj"]
 tile_size = Vector2i(24, 24)
-sources/0 = SubResource("TileSetAtlasSource_mmj06")
+sources/0 = SubResource("TileSetAtlasSource_igo2e")
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c1fah"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7e1lj"]
 texture = ExtResource("2_fvv6k")
 texture_region_size = Vector2i(24, 24)
 0:0/0 = 0
@@ -47,7 +48,7 @@ texture_region_size = Vector2i(24, 24)
 tile_size = Vector2i(24, 24)
 physics_layer_0/collision_layer = 2
 physics_layer_0/collision_mask = 2
-sources/0 = SubResource("TileSetAtlasSource_c1fah")
+sources/0 = SubResource("TileSetAtlasSource_7e1lj")
 
 [node name="Level 1" type="Node2D"]
 script = ExtResource("1_0dsdi")
@@ -88,6 +89,14 @@ text = "Red hurts, don't touch it.
 "
 scroll_active = false
 
+[node name="CollectCoins" type="RichTextLabel" parent="."]
+offset_left = 742.0
+offset_top = 315.0
+offset_right = 986.0
+offset_bottom = 343.0
+text = "Collect the coins, they are nice."
+scroll_active = false
+
 [node name="Coin" parent="." instance=ExtResource("4_pwxfo")]
 position = Vector2(863, 361)
 
@@ -99,3 +108,6 @@ position = Vector2(213, 836)
 
 [node name="Coin4" parent="." instance=ExtResource("4_pwxfo")]
 position = Vector2(255, 836)
+
+[node name="MovingPlatform" parent="." instance=ExtResource("6_difsg")]
+position = Vector2(698, 914)
