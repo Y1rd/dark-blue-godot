@@ -1,7 +1,7 @@
-res://coin.tscn::10648f53fb16fb0d2227e14be2235ef8::1736882867::res://.godot/exported/133200997/export-2c627f0aeee2256356f1e6ba540049dd-coin.scn
-res://level2.tscn::f6b55490ea0e572ef2017313890aece9::1736882867::res://.godot/exported/133200997/export-6aff87dc80077bd6d05fecea6445880a-level2.scn
-res://level3.tscn::465fee52b9c806e597cf193d2aa3d7a3::1736882867::res://.godot/exported/133200997/export-0a575a936f2772c13bd159b39f95aaae-level3.scn
-res://level.tscn::1c082def7892d8ef41e6fa7f34bcf201::1736882867::res://.godot/exported/133200997/export-d85448a68f01bbd6644b4b40ef87233e-level.scn
-res://moving_platform.tscn::ce313e8c46d5427773ad42ecaf4f3dba::1736882867::res://.godot/exported/133200997/export-dd72ca5500b5e4de3eb5786886c2b4b5-moving_platform.scn
-res://moving_platform_vertical.tscn::f5f4167f7cf1a85dec65d5a6bc7fac8f::1736882867::res://.godot/exported/133200997/export-25a90171ab70ffd91893eb839b28c2a2-moving_platform_vertical.scn
-res://player.tscn::e0e0f6ce5a0eb0460be158f0637a08b7::1736882867::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
+res://coin.tscn::10648f53fb16fb0d2227e14be2235ef8::1736965059::res://.godot/exported/133200997/export-2c627f0aeee2256356f1e6ba540049dd-coin.scn
+res://level2.tscn::f6b55490ea0e572ef2017313890aece9::1736965059::res://.godot/exported/133200997/export-6aff87dc80077bd6d05fecea6445880a-level2.scn
+res://level3.tscn::1820eeab77ab3674be1055cc415282e2::1736965059::res://.godot/exported/133200997/export-0a575a936f2772c13bd159b39f95aaae-level3.scn
+res://level.tscn::1c082def7892d8ef41e6fa7f34bcf201::1736965059::res://.godot/exported/133200997/export-d85448a68f01bbd6644b4b40ef87233e-level.scn
+res://moving_platform.tscn::ce313e8c46d5427773ad42ecaf4f3dba::1736965059::res://.godot/exported/133200997/export-dd72ca5500b5e4de3eb5786886c2b4b5-moving_platform.scn
+res://moving_platform_vertical.tscn::f5f4167f7cf1a85dec65d5a6bc7fac8f::1736965059::res://.godot/exported/133200997/export-25a90171ab70ffd91893eb839b28c2a2-moving_platform_vertical.scn
+res://player.tscn::e0e0f6ce5a0eb0460be158f0637a08b7::1736965059::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn
